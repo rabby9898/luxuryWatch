@@ -1,0 +1,390 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size:14px;
+	line-height: 24px;
+}
+a, a:hover{
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Bebas Neue', cursive;
+}
+.heading-section{
+	width: 100%;
+	background:#0e0e0e;
+}
+.heading-section .title p{
+	font-size: 12px;
+    color: #767676;
+    font-style: italic;
+    margin: 8px 0px;
+}
+.heading-section .header-icon{
+	width: 100%;
+	text-align:right;
+
+}
+.heading-section .header-icon ul{
+	width: 100%;
+	margin-top: 7px;
+}
+.heading-section .header-icon ul li{
+	display: inline-block;
+	list-style: none;
+
+}
+.heading-section .header-icon .fa{
+	color: #bfbfbf;
+    margin: 0px 22px;
+    font-size: 17px;
+    font-weight: 300;
+}
+.heading-section .header-icon .fa:hover{
+	color: #977869;
+}
+.banner{
+	width: 100%;
+	background: #020202;
+}
+
+.banner .bg-light{
+    background-color: #f8f9fa00!important;
+    margin-top: 30px;
+}
+.banner .bg-light .navbar-brand img{
+	margin-left: -35px;
+}
+.banner .navbar-collapse .navbar-nav{
+    margin-left: 235px;
+}
+.banner .navbar-light .navbar-nav .nav-link.active{
+	color: #977869;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+}
+.banner .navbar-light .navbar-nav .nav-link{
+	color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    margin: 0px 18px;
+}
+.banner .navbar-light .navbar-nav .nav-link:hover{
+	background: url("../images/line.png") center bottom no-repeat;
+	background-size: contain;
+	color: #977869;
+}
+.banner .call{
+	margin-left: 183px;
+}
+.banner .call span{
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	margin-left: 14px;
+}
+.banner .call img{
+	margin-left: -50px;
+}
+.banner .carousel-inner{
+	position: relative;
+    width: 117%;
+    overflow: hidden;
+    left: -72px;
+}
+.banner .carousel-caption{
+    margin: -150px 21px;
+}
+.banner .carousel-caption h1{
+	text-align: left;
+    font-size: 65px;
+    margin-left: -152px;
+} 
+.banner .carousel-caption .inner-btn{
+	margin-left: -815px;
+    margin-top: 47px;
+}
+.banner .carousel-caption .btn-info{
+	background: transparent;
+    color: #977869;
+    border: 1px solid #977869;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    padding: 10px 28px;
+    margin: 10px 15px;
+    border-radius: 0px;
+    transition: 1s;
+}
+.banner .carousel-caption .btn-info:hover{
+	background: #977869;
+	color: #fff;
+}
+.banner .carousel-caption .dot-img{
+	text-align: left;
+    margin: 150px -155px;
+}
+
+.our-store{
+	width: 100%;
+	background: url("../images/w1.png") center top no-repeat;
+	background-size: cover;
+	height: 70vh;
+}
+.our-store .owl-carousel.owl-drag .owl-item{
+    left: 658px;
+    bottom: -20px;
+}
+.our-store .no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+    top: 139px;
+}
+.our-store .item h4{
+	color: #fff;
+}
+.our-store .item p{
+	font-size: 13px;
+    color: #fff;
+    line-height: 23px;
+    font-weight: 300;
+}
+.collection{
+	width: 100%;
+	background:#000;
+	height: 112vh;
+}
+.collection h1{
+	margin-top: 55px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 36px;
+    margin-bottom: 30px;
+}
+.collection .bg-light{
+	width: 100%;
+    background: #000!important;
+    color: #fff;
+    text-align: right;
+}
+.collection .navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    text-align: right;
+    margin-left: 979px;
+    margin-top: -124px;
+}
+.collection .bg-light .nav-item .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: 4px;
+    font-weight: 600;
+}
+.collection .bg-light .nav-item .active {
+    color: #fff;
+}
+.collection .card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: 1px solid #2b2b2b;
+    border-radius: 1px;
+    text-align: center;
+    width: 350px;
+    margin-left: 35px;
+}
+.collection .card-img-top{
+   width: 150px;
+    text-align: center;
+    margin-left: 95px;
+    height: 350px;
+    margin-top: 48px;
+}
+.collection .card-body h5{
+	color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 22px;
+}
+.collection .card-body h6{
+	color: #b6907e;
+    font-size: 20px;
+}
+.rado{
+	width: 100%;
+	background: #0e0e0e;
+	height: 25vh;
+}
+.rado img{
+	margin-top: 53px;
+    margin-left: 32px;
+    width: 96%;
+}
+.review{
+	width: 100%;
+	background: #000;
+}
+.review h1{
+	text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 57px;
+
+}
+.review .owl-carousel .owl-item img {
+    display: block;
+    width: 39%;
+}
+.review .card{
+	width: 100%;
+	background: transparent!important;
+	border: none;
+}
+.review .comment {
+    height: 73vh;
+    margin-left: 67px;
+}
+.review .item{
+	margin-top: 12px;
+    margin-bottom: 114px;
+}
+.review .card-body{
+	margin-left: -115px;
+}
+.review .card-body h5{
+	color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+}
+.review .card-body p{
+	color: #717171;
+	font-size: 14px;
+	line-height: 24px;
+}
+.review .owl-theme .owl-dots .owl-dot.active span{
+	background: #5b483f;
+}
+.review .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background: #b6907e;
+}
+.review .owl-theme .owl-dots, .owl-theme .owl-nav {
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -96px;
+    margin-left: -99px;
+}
+.review .owl-theme .owl-nav {
+    margin-top: 10px;
+    color: #000;
+}
+.main-footer{
+	width: 100%;
+	background: #0e0e0e;
+	height: 56vh;
+}
+.main-footer .logo h4{
+	color: #fff;
+    font-size: 30px;
+    margin-top: 75px;
+}
+.main-footer .logo p{
+	font-size: 14px;
+	color: #5e5d5d;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.main-footer .menu h4{
+	color: #fff;
+    font-size: 30px;
+    margin-top: 75px;
+}
+.main-footer .menu h6{
+	color: #5e5d5d;
+	margin-top: 22px;
+}
+.main-footer .menu h6:hover{
+	color: #b6907e;
+}
+.main-footer .menu .semi{
+	margin-left: 142px;
+    margin-top: -119px;
+}
+.main-footer .menu .semi h6{
+	color: #5e5d5d;
+}
+.main-footer .menu .semi h6:hover{
+	color: #b6907e;
+}
+.main-footer .sign h4{
+	color: #fff;
+    font-size: 30px;
+    margin-top: 75px;
+}
+.main-footer .bg-light{
+	background: transparent!important;
+}
+.main-footer .form-control{
+	background: transparent;
+    color: #494949;
+    border: 1px solid #494949;
+    margin-left: -24px;
+    text-transform: capitalize;
+    padding: 10px 40px;
+    border-radius: 0px;
+    text-align: left!important;
+    margin-top: 16px;
+}
+.main-footer .sign .btn-outline-success{
+	text-transform: uppercase;
+    font-size: 14px;
+    color: #494949;
+    background: #b6907e;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 0px;
+    margin-left: -8px;
+    margin-top: 16px;
+    transition: 1s;
+}
+.main-footer .sign .btn-outline-success:hover{
+	border: 1px solid #b6907e;
+	color: #b6907e;
+	background: transparent;
+}
+.main-footer .inner-footer{
+	width: 100%;
+   margin: 93px 0px;
+}
+.main-footer .copyright p{
+	font-size: 14px;
+	color:#5e5d5d;
+}
+.main-footer .social ul{
+  	list-style: none;
+  	 text-align: right;
+  	 margin-right: 21px;
+
+}
+.main-footer .social ul li{
+	 display: inline-block;
+
+}
+.main-footer .social .fa{
+ 	font-size: 16px;
+    color: #5e5d5d;
+    text-align: right;
+    margin-left: 12px;
+}
+.main-footer .social .fa:hover{
+	color: #b6907e;
+}
+
+
+
